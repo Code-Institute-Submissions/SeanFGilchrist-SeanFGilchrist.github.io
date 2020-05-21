@@ -126,15 +126,15 @@ body {
     font-weight: bold;
 }
 
-.btn--red {
+.btn--white {
     color: #e30615;
     background-color: #fff;
 }
 
-.btn--red:hover,
-.btn--red:active,
-.btn--red:focus,
-.btn--red:active:focus {
+.btn--white:hover,
+.btn--white:active,
+.btn--white:focus,
+.btn--white:active:focus {
     background-color: #e30615;
     border-color: #e30615;
     color: white;
