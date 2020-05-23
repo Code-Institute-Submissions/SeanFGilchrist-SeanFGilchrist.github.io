@@ -29,6 +29,7 @@ body {
     position: relative;
 }
 
+
 .opaque-overlay {
     position: absolute;
     top: 0;
@@ -185,7 +186,6 @@ body {
 .feature .btn {
     background-color: white;
     border-color: white;
-    border-radius: 15px;
     min-width: 100px;
     font-weight: bold;
     margin-top: 10px;
