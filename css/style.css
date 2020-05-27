@@ -192,21 +192,25 @@ body {
     color: #e30615;
 }
 
-/* CUSTOMIZE THE CAROUSEL
--------------------------------------------------- */
 
-/* Since positioning the image, we need to help out the caption */
+
+/* Carousel */
+
 .carousel-caption {
   bottom: 3rem;
   z-index: 10;
 }
 
-/* Declare heights because of positioning of img element */
-.carousel-item { 
-  height: 32rem;
-  background-color: #fff;
+.carousel-item { position: relative !important; }
+.carousel-overlay { position: absolute ; position: absolute;
+  top: 0px;
+  left: 0px;
+  height: 100%;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.5);
 }
 
 .carousel-item > img {
-
+ height: 100%;
+ width: 100%;
 }
