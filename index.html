@@ -12,50 +12,91 @@
 </head>
 <body>
         <!--  navbar -->
-        <nav class="navbar navbar-dark navbar-expand-sm fixed-top">
+        <nav class="navbar navbar-dark navbar-expand-sm">
             <a href="/" class="navbar-brand">Craft Cymru</a>
 
             <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span></button>
 
             <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                <ul class="navbar-nav mr-auto">
-                    <li class="active nav-item mr-2"><a class="nav-link" href="/">Home</a></li>
-                    <li class="nav-item mr-2"><a class="nav-link" href="/gallery.html">Beers</a></li>
-                    <li class="nav-item mr-2"><a class="nav-link" href="/contact.html">Contact</a></li>      
-                    <li class="nav-item mr-2 d-block d-sm-none"><a class="nav-link" href="/login">Sign Up</a></li>
-                </ul>
+                    <ul class="navbar-nav mr-auto">
+                        <li class="active nav-item mr-2"><a class="nav-link" href="/index.html">Home</a></li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle .d-block .d-sm-none" href="gallery.html" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Beers
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                <a class="dropdown-item" href="/gallery.html">Tiny Rebel</a>
+                                <a class="dropdown-item" href="/bluestone.html">Bluestone Brewing</a>
+                                <a class="dropdown-item" href="/crafty-devil.html">Crafty Devil</a>
+                            </div>
+                        </li>
+                        <li class="nav-item mr-2"><a class="nav-link" href="/contact.html">Contact</a></li>
+                    </ul>
             </div>
             <div class="d-none d-md-block">
-                <a href="/login" class="btn btn--cta btn--white">Sign Up</a>
+                <a href="/contact.html" class="btn btn--cta btn--white">Sign Up</a>
             </div>
         </nav>
         <!-- /.navbar -->
   
     <div class="container-fluid callout-container">
         <!-- Callout -->
-            <form>
-                <div class="form-group">
-                        <label for="exampleInputEmail1">Email address</label>
-                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
-                        <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
-                </div>
-                <div class="form-group">
-                        <label for="exampleInputPassword1">Password</label>
-                        <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
-                </div>
-                <div class="form-check">
-                        <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                        <label class="form-check-label" for="exampleCheck1">Check me out</label>
-                </div>
-                <button type="submit" class="btn btn-primary">Submit</button>
-            </form>
         <div class="opaque-overlay">&nbsp;</div>
         <div class="row">
+            <div class="col-12">
+                <div class="col-12">
+                    <section class="callout jumbotron text-center">
+                        <h1 class="jumbotron-header">The best craft beers Wales has to offer</h1>
+                        <hr class="block-divider block-divider--red">
+                        <p class="lead">Sign up today to start receiving the best Welsh beers every week.
+                            <span class="d-inline d-sm-none"><br></span>
+                            <strong><mark>£19.99</mark></strong></p>
+                        <a href="/contact.html" class="btn btn-lg btn--cta btn--white">Sign Up!</a>
+                        <p class="text-muted"><small>You must be over 18 to sign up to our service. Please, drink responsibly.</small></p>
+                    </section>
+                </div>
+            </div>
         </div>
         <!-- /.callout -->
     </div>
 
-    
+    <!-- Features -->
+    <div class="container-wrapper container-wrapper--red">
+        <div class="container features-container content-container">
+            <section class="features">
+                <div class="row">
+                    <div class="col-12 page-header">
+                        <h2 class="text-uppercase">Features:</h2>
+                        <hr class="block-divider block-divider--short block-divider--white">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <div class="feature">
+                            <h3><i class="fas d-none d-sm-block"></i> Feature 1</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                            <p><a class="btn btn-sm btn-light" href="">Read More</a></p>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <div class="feature">
+                            <h3><i class="fas d-none d-sm-block"></i> Feature 2</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                            <p><a class="btn btn-sm btn-light" href="">Read More</a></p>
+                        </div>
+                    </div>
+                    <div class="col-12 d-md-none d-lg-block col-lg-4">
+                        <div class="feature">
+                            <h3><i class="fas d-none d-sm-block"></i> Feature 3</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                            <p><a class="btn btn-sm btn-light" href="">Read More</a></p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- /.features -->
+        </div>
+    </div>
 
 </html>
