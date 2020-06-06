@@ -166,6 +166,11 @@ body {
     line-height: 45px;
 }
 
+.features h3 {
+  padding-top: 15px;
+  padding-bottom: 15px
+}
+
 .feature .btn {
     background-color: white;
     border-color: white;
@@ -174,6 +179,8 @@ body {
     margin-top: 10px;
     color: #e30615;
 }
+
+
 
 
 /* Carousel */
@@ -188,14 +195,11 @@ body {
     
 }
 
-
-/* Since positioning the image, we need to help out the caption */
 .carousel-caption {
   bottom: 3rem;
   z-index: 10;
+  margin-bottom: 3rem;
 }
-
-/* Declare heights because of positioning of img element */
 
 .carousel-item,
 .carousel-inner,
@@ -208,6 +212,17 @@ body {
   text-align: center;
 }
 
+.carousel h1 {
+    color: white;
+    font-weight: bold;
+    margin-bottom: 30px;
+    color: white;
+}
+
+.carousel p{
+    color: #a7a7a7;
+}
+
 .carousel {
   height: 400px;
 }
@@ -215,7 +230,6 @@ body {
 .carousel-inner img {
   width: 100%;
   height: auto;
-  text-align: center;
 }
 
 /* Beer selection */
@@ -224,12 +238,18 @@ body {
   margin-bottom: 1.5rem;
   text-align: center;
 }
+
 .marketing h2 {
   font-weight: 400;
 }
+
 .marketing .col-lg-4 p {
   margin-right: .75rem;
   margin-left: .75rem;
+}
+
+.beer-signup {
+ float: center;
 }
 
 
@@ -268,6 +288,15 @@ color: #fff;
   /* Bump up size of carousel content */
   .carousel-caption {
     margin-bottom: 1.5rem;
-    font-size: 1.25rem;
+    font-size: 1.35rem;
     line-height: 1.4;
   }
+
+@media (min-width: 480px) {
+
+    .features h1 {
+        padding-top: 5px;
+    }
+    
+
+}
