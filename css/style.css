@@ -187,8 +187,8 @@ body {
 .carousel-overlay { position: absolute ; position: absolute;
   top: 0px;
   left: 0px;
-  height: 100vh;
-  width: 100vw;
+  height: 100%;
+  width: 100%;
   background: rgba(0, 0, 0, 0.7);
     
 }
@@ -199,11 +199,10 @@ body {
   margin-bottom: 3rem;
 }
 
-.carousel-item,
 .carousel-inner,
 .carousel-inner img {
   height: 100%;
-  width: auto;
+  width: 100%;
 }
 
 .carousel-item {
@@ -223,11 +222,6 @@ body {
 
 .carousel {
   height: 400px;
-}
-
-.carousel-inner img {
-  width: 100%;
-  height: auto;
 }
 
 /* Beer selection */
@@ -299,5 +293,16 @@ color: #fff;
     .contact-form {
         padding-top: 50px;
     }
+
+    .carousel {
+    height: 200px;
+    }
+
+    .carousel-caption {
+    top: 0.5rem;
+    z-index: 10;
+    margin-bottom: 3rem;
+}
+
 
 }
