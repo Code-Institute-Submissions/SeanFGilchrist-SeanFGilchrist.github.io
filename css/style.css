@@ -194,7 +194,7 @@ body {
 }
 
 .carousel-caption {
-  bottom: 3rem;
+  bottom: 0rem;
   z-index: 10;
   margin-bottom: 3rem;
 }
@@ -221,7 +221,7 @@ body {
 }
 
 .carousel {
-  height: 400px;
+  height: 250px;
 }
 
 /* Beer selection */
@@ -292,7 +292,8 @@ color: #fff;
 
     .carousel {
         height: 200px;
-
+    }
+    
     .features h1 {
         padding-top: 5px;
     }
