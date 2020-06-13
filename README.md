@@ -83,7 +83,10 @@ Thorough testing has also been performed opening the site on various screen size
 
 ## **Deployment**
 
-NEED Content
+In order to deploy the website and make it live, I created GitHub page. I needed to rename my repository from craft-cymru to seanfgilchrist.github.io.
+
+The website can be accessed using this link: https://seanfgilchrist.github.io/
+
 
 ## **Credits**
 ### **Content**
