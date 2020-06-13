@@ -272,6 +272,10 @@ font-size: 16px;
 color: #fff;
 }
 
+.alert {
+    display: none;
+}
+
 
 /* RESPONSIVE CSS
 -------------------------------------------------- */
@@ -284,7 +288,10 @@ color: #fff;
     line-height: 1.4;
   }
 
-@media (min-width: 480px) {
+@media (min-width: @screen-sm-min) and (max-width: @screen-sm-max) {
+
+    .carousel {
+        height: 200px;
 
     .features h1 {
         padding-top: 5px;
@@ -294,14 +301,10 @@ color: #fff;
         padding-top: 50px;
     }
 
-    .carousel {
-    height: 200px;
-    }
-
     .carousel-caption {
-    top: 0.5rem;
-    z-index: 10;
-    margin-bottom: 3rem;
+        top: 0.5rem;
+        z-index: 10;
+        margin-bottom: 3rem;
 }
 
 
